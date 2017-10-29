@@ -276,7 +276,7 @@ Sym 的主要作者是 [Daniel](https://github.com/88250) 与 [Vanessa](https://
 
 ## 鸣谢
 
-Sym 的诞生离不开以下开源项目：
+Sym 的诞生离不开以下开源项目： 
 
 * [jQuery](https://github.com/jquery/jquery)：前端 JavaScript 工具库
 * [CodeMirror](https://github.com/codemirror/CodeMirror)：前端 Markdown 编辑器内核
