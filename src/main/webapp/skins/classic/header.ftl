@@ -1,7 +1,7 @@
 <div class="nav">
     <h1 aria-label="${symphonyLabel}" class="tooltipped tooltipped-s">
         <a href="${servePath}">
-            <svg><use xlink:href="#logo"></use></svg>
+            <img src="${staticServePath}/images/favicon.png"/>
         </a>
     </h1>
     <div class="nav-tabs">
@@ -16,10 +16,10 @@
         <a href="${servePath}/city/my"<#if selected?? && 'city' == selected> class="current"</#if>>
            <svg><use xlink:href="#local"></use></svg> ${currentUser.userCity}</a>
         </#if>
-        <a href="${servePath}/timeline"<#if selected?? && 'timeline' == selected> class="current"</#if>>
-           <svg><use xlink:href="#view"></use></svg> ${timelineLabel}</a>
-        <a href="https://hacpai.com/tag/book_share"<#if selected?? && 'book' == selected> class="current"</#if>>
-           <svg><use xlink:href="#book"></use></svg> ${bookShareLabel}</a>
+         <a href="${servePath}/timeline"<#if selected?? && 'timeline' == selected> class="current"</#if>>
+           <svg><use xlink:href="#view"></use></svg> ${timelineLabel}</a> 
+        <!-- <a href="https://hacpai.com/tag/book_share"<#if selected?? && 'book' == selected> class="current"</#if>>
+           <svg><use xlink:href="#book"></use></svg> ${bookShareLabel}</a> -->
     </div>
     <#if esEnabled || algoliaEnabled>
     <form class="responsive-hide fn-left" target="_blank" action="/search">

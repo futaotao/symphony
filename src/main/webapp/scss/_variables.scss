@@ -49,7 +49,8 @@ $red-light: #ffdce0 !default;
 $green: #569e3d !default;
 $fade: rgba(0, 0, 0, .38)!default;
 $gray: rgba(0, 0, 0, .54) !default;
-$black: #3b3e43 !default;
+//$black: #3b3e43 !default;
+$black: rgb(116, 223, 250);
 $black-text: rgba(0, 0, 0, .87) !default;
 $black-light: #616161 !default;
 
@@ -61,7 +62,7 @@ $font-family-code: mononoki, Consolas, "Liberation Mono", Menlo, Courier, monosp
 $shadow-tip: 0 1px 2px rgba(0,0,0,.2) !default;
 
 // theme
-$theme-primary: $black;
+$theme-primary: $blue-lighter;
 $theme-accent: $red;
 $theme-secondary: $black-light;
 $theme-info: $blue-lighter;
