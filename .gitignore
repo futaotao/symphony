@@ -10,3 +10,4 @@ nb-configuration.xml
 /.settings/
 /.classpath
 /.project
+local.properties
