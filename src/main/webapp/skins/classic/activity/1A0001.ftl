@@ -19,7 +19,7 @@
                             ${activity1A0001TitleLabel}
                         </h2>
                         <div class="content-reset fn-content">
-                            ${activity1A0001GuideLabel}
+                           
 
                             <#if !closed && !closed1A0001 && !end && !collected && !participated>
                             <div id="betDiv">

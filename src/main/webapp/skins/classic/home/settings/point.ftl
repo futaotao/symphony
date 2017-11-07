@@ -4,7 +4,7 @@
 <div class="module">
     <div class="module-header">
         <h2>${pointTransferTipLabel}</h2>
-        <span class="fn-right">
+        <span hidden="true"  class="fn-right">
             <a class="ft-green" href="${servePath}/charge/point">${rechargePointLabel}</a>
         </span>
     </div>

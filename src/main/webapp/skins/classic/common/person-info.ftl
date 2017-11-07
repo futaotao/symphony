@@ -4,7 +4,7 @@
     <div class="module-panel">
         <ul class="module-list small-tips">
             <li>
-                <span class="ft-gray">${tipsLabel}</a></span>
+                <span class="ft-gray"></span>
             </li>
         </ul>
     </div>

@@ -321,8 +321,7 @@
                  data-shareurl="${servePath}${article.articlePermalink}<#if isLoggedIn>?r=${currentUser.userName}</#if>"></div>
             <span class="tooltipped tooltipped-e" aria-label="share to wechat" data-type="wechat"><svg class="icon-wechat"><use xlink:href="#wechat"></use></svg></span>
             <span class="tooltipped tooltipped-e" aria-label="share to weibo" data-type="weibo"><svg class="icon-weibo"><use xlink:href="#weibo"></use></svg></span>
-            <span class="tooltipped tooltipped-e" aria-label="share to twitter" data-type="twitter"><svg class="icon-twitter"><use xlink:href="#twitter"></use></svg></span>
-            <span class="tooltipped tooltipped-e" aria-label="share to google" data-type="google"><svg class="icon-google"><use xlink:href="#google"></use></svg></span>
+          
             <span class="tooltipped tooltipped-e" data-type="copy"
                   aria-label="${copyLabel}"
                   id="shareClipboard"><svg class="icon-link"><use xlink:href="#link"></use></svg></span>
