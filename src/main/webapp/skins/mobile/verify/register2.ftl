@@ -33,7 +33,7 @@
                         <div class="fn-clear">
                             <label>${roleLabel}</label>
                             <label>&nbsp;&nbsp;&nbsp;&nbsp;<input name="userAppRole" type="radio" value="0" checked="checked" />&nbsp;&nbsp;${programmerLabel}</label>
-                            <label style="float:right">&nbsp;&nbsp;<input name="userAppRole" type="radio" value="1" />&nbsp;&nbsp;${designerLabel}</label>
+                            
 
                         </div>
                         <div id="registerTip2" class="tip"></div>

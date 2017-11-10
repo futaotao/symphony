@@ -22,7 +22,7 @@
                     <div class="module">
                         <div class="module-header">
                             <h2>${domainNavLabel}</h2>
-                            <a href="${servePath}/domains" class="ft-gray fn-right">All Domains</a>
+                            <a href="${servePath}/domains" class="ft-gray fn-right">全部领域</a>
                         </div>
                         <div class="module-panel">
                             <ul class="module-list domain">

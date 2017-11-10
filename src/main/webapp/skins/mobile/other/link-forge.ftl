@@ -27,7 +27,7 @@
                                     ${tag.tagTitle}
                                 </a>
                             </h2>
-                            <a class="ft-gray fn-right" rel="nofollow" href="javascript:void(0)">${tag.tagLinksCnt} Links</a>
+                            <a class="ft-gray fn-right" rel="nofollow" href="javascript:void(0)">${tag.tagLinksCnt} 链接</a>
                         </div>
                         <div class="module-panel">
                             <ul class="module-list">
@@ -44,8 +44,8 @@
                 <div class="side">
                     <#include "../common/person-info.ftl">
                     <div class='domains-count'>
-                        Tags: <b>${tagCnt}</b><br/>
-                        Links: <b>${linkCnt}</b>
+                        标签: <b>${tagCnt}</b><br/>
+                        链接: <b>${linkCnt}</b>
                     </div>
                     <#if ADLabel!="">
                     <div class="module">

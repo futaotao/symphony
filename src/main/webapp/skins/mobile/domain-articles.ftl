@@ -22,7 +22,7 @@
                     <div class="module">
                         <div class="module-header">
                             <h2>${domain.domainTitle}</h2>
-                            <a href="${servePath}/domain/${domain.domainURI}" class="ft-gray fn-right">${domain.domainTags?size} Tags</a>
+                            <a href="${servePath}/domain/${domain.domainURI}" class="ft-gray fn-right">${domain.domainTags?size} 标签</a>
                         </div>
                         <div class="module-panel">
                             <ul class="module-list domain">

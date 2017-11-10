@@ -151,8 +151,7 @@
                              data-shareurl="${servePath}${article.articlePermalink}<#if isLoggedIn>?r=${currentUser.userName}</#if>"></div>
                         <span data-type="wechat"><svg class="icon-wechat"><use xlink:href="#wechat"></use></svg></span>
                         <span data-type="weibo"><svg class="icon-weibo"><use xlink:href="#weibo"></use></svg></span>
-                        <span data-type="twitter"><svg class="icon-twitter"><use xlink:href="#twitter"></use></svg></span>
-                        <span data-type="google"><svg class="icon-google"><use xlink:href="#google"></use></svg></span>
+                        
                     </div>
                 </div>
                 

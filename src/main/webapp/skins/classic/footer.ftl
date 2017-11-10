@@ -3,7 +3,7 @@
         <div class="slogan">
             ${indexIntroLabel} &nbsp; &nbsp;
             <a target="_blank" class="tooltipped tooltipped-n" aria-label="${joinQQGroupLabel}"
-               href="//shang.qq.com/wpa/qunwpa?idkey=1ce5ad9a796a145e11fca7aa8c4a15e67a26205c6119dc95c11ca35b9bc7f489">
+               href="http://shang.qq.com/wpa/qunwpa?idkey=1ce5ad9a796a145e11fca7aa8c4a15e67a26205c6119dc95c11ca35b9bc7f489">
                 <svg class="icon-qq"><use xlink:href="#qq"></use></svg></a> 
         </div>
         <div class="fn-flex-1">

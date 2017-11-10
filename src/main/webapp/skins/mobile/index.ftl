@@ -120,7 +120,6 @@
                         <ul class="module-list">
                             <li><a class="title" href="<#if useCaptchaCheckin??>${servePath}/activity/checkin<#else>${servePath}/activity/daily-checkin</#if>">${activityDailyCheckinLabel}</a></li>
                             <li><a class="title" href="${servePath}/activity/yesterday-liveness-reward">${activityYesterdayLivenessRewardLabel}</a></li>
-                            <li><a class="title" href="${servePath}/activity/1A0001">${activity1A0001Label}</a></li>
                             <li><a class="title" href="${servePath}/activity/character">${characterLabel}</a></li>
                         </ul>
                     </div>
@@ -130,12 +129,8 @@
 
     <div class="slogan">
         ${indexIntroLabel}&nbsp;
-        <a href="https://github.com/b3log/symphony" target="_blank">
-            <svg><use xlink:href="#github"></use></svg></a>
-        <a href="http://weibo.com/u/2778228501" target="_blank">
-            <svg><use xlink:href="#weibo"></use></svg></a>
         <a target="_blank"
-           href="http://shang.qq.com/wpa/qunwpa?idkey=981d9282616274abb1752336e21b8036828f715a1c4d0628adcf208f2fd54f3a">
+           href="http://shang.qq.com/wpa/qunwpa?idkey=1ce5ad9a796a145e11fca7aa8c4a15e67a26205c6119dc95c11ca35b9bc7f489">
             <svg><use xlink:href="#qq"></use></svg></a>
     </div>
     <#include "footer.ftl">

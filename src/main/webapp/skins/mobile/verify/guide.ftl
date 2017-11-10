@@ -16,7 +16,7 @@
                         <dt class="current"><b>1. </b>${guideUploadAvatarLabel}</dt>
                         <dt><b>2. </b>${guideFollowTagLabel}</dt>
                         <dt><b>3. </b>${guideFollowUserLabel}</dt>
-                        <dt><b>4. </b>${guideStarProjectLabel}</dt>
+                        
                     </dl>
                     <div class="fn-none">
                         ${introLabel}
@@ -88,11 +88,7 @@
                                 </#list>
                             </ul>
                         </div>
-                        <div class="fn-none ft-center">
-                            <br/>
-                            <a href="https://github.com/b3log/symphony" target="_blank"><img src="${staticServePath}/images/sym-logo300.png" width="180px"></a> <br/> <br/><br/>
-                            <iframe src="https://ghbtns.com/github-btn.html?user=b3log&repo=symphony&type=star&count=true&size=large" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
-                        </div>
+                        
                         <div class="fn-none list">
                             <ul>
                                 <li>

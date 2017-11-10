@@ -13,7 +13,7 @@
                     <div class="fn-hr10"></div>
                     <div class="content-reset">
                     ${activity1A0001TitleLabel}
-                    ${activity1A0001GuideLabel}
+                    
 
                     <#if !closed && !closed1A0001 && !end && !collected && !participated>
                     <div id="betDiv">

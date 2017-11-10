@@ -17,7 +17,7 @@
                     <div class="module">
                         <div class="module-header">
                             <h2>${domain.domainTitle}</h2>
-                            <a class="ft-gray fn-right" rel="nofollow" href="${servePath}/domain/${domain.domainURI}">${domain.domainTags?size} Tags</a>
+                            <a class="ft-gray fn-right" rel="nofollow" href="${servePath}/domain/${domain.domainURI}">${domain.domainTags?size} 标签</a>
                         </div>
                         <div class="module-panel">
                             <ul class="tags fn-clear">
@@ -33,8 +33,8 @@
                 </div>
                 <div class="side">
                     <div class='domains-count'>
-                        Domains: <b>${domainCnt}</b><br/>
-                        Tags: <b>${tagCnt}</b>
+                        领域: <b>${domainCnt}</b><br/>
+                        标签: <b>${tagCnt}</b>
                     </div>
                     <#include "common/person-info.ftl">
                     <#if ADLabel!="">
